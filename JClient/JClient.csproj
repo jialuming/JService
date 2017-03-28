@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="JEntity">
+      <HintPath>..\..\JChat\JEntity\bin\Debug\JEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="JToolsLib">
+      <HintPath>..\..\JChat\JToolsLib\bin\Debug\JToolsLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

@@ -31,6 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="JEntity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\JChat\JEntity\bin\Debug\JEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="JToolsLib">
+      <HintPath>..\..\JChat\JToolsLib\bin\Debug\JToolsLib.dll</HintPath>
+    </Reference>
     <Reference Include="SqlSugar, Version=3.5.3.4, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\SqlSugar.dll</HintPath>
