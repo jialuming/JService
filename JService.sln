@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JClient", "JClient\JClient.csproj", "{BDE5F197-2925-49AB-85BC-8208BB9B0FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JDBService", "JDBService\JDBService.csproj", "{23F37201-4208-4DC4-8255-1A94A4EB707A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JService", "JService\JService.csproj", "{6D233697-CA2B-4C57-98CD-00FC3C74EF94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE5F197-2925-49AB-85BC-8208BB9B0FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE5F197-2925-49AB-85BC-8208BB9B0FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE5F197-2925-49AB-85BC-8208BB9B0FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE5F197-2925-49AB-85BC-8208BB9B0FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F37201-4208-4DC4-8255-1A94A4EB707A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F37201-4208-4DC4-8255-1A94A4EB707A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F37201-4208-4DC4-8255-1A94A4EB707A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F37201-4208-4DC4-8255-1A94A4EB707A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D233697-CA2B-4C57-98CD-00FC3C74EF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D233697-CA2B-4C57-98CD-00FC3C74EF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D233697-CA2B-4C57-98CD-00FC3C74EF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D233697-CA2B-4C57-98CD-00FC3C74EF94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
