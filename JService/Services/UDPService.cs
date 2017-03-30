@@ -10,12 +10,6 @@ namespace JService.Services
 {
     class UDPService : ISocketService
     {
-        private ISocketPool _socketPool = new TCPPool();
-        public ISocketPool SocketPool
-        {
-            get { return _socketPool; }
-            set { _socketPool = value; }
-        }
         void StartSocket()
         {
             //创建一个新的Socket,这里我们使用最常用的基于TCP的Stream Socket（流式套接字）

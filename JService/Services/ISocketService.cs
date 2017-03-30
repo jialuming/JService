@@ -8,6 +8,5 @@ namespace JService.Services
 {
     public interface ISocketService
     {
-        ISocketPool SocketPool { get; set; }
     }
 }

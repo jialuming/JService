@@ -1,10 +1,16 @@
 ﻿using System;
 using JService.Model;
+using JEntity.WebService;
 
 namespace JService.Design
 {
     public class DesignDataService : IDataService
     {
+        public bool CheckUser(string userName, string password)
+        {
+            throw new NotImplementedException();
+        }
+
         //public void GetData(Action<DataItem, Exception> callback)
         //{
         //    // Use this to create design time data

@@ -81,21 +81,18 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Design\DesignDataService.cs" />
-    <Compile Include="Model\DataItem.cs" />
     <Compile Include="Model\DataService.cs" />
     <Compile Include="Model\IDataService.cs" />
-    <Compile Include="Model\MessageInfo.cs" />
     <Compile Include="Services\ISocketPool.cs" />
     <Compile Include="Services\ISocketService.cs" />
     <Compile Include="Services\MessageManager.cs" />
     <Compile Include="Services\MessagePool.cs" />
-    <Compile Include="Services\TCPPool.cs" />
+    <Compile Include="Services\SocketPool.cs" />
     <Compile Include="Services\TCPService.cs" />
-    <Compile Include="Services\UDPPool.cs" />
     <Compile Include="Services\UDPService.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -103,7 +100,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -140,9 +137,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\JDBService\JDBService.csproj">
       <Project>{23f37201-4208-4dc4-8255-1a94a4eb707a}</Project>

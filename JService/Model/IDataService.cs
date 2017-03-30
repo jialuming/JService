@@ -1,4 +1,5 @@
-﻿using JService.Services;
+﻿using JEntity.WebService;
+using JService.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace JService.Model
     public interface IDataService
     {
         void GetMessage(MessageInfo messageResult);
+        bool CheckUser(string userName, string password);
     }
 }

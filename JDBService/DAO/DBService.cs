@@ -35,7 +35,7 @@ namespace JDBService.DAO
         {
             using (var db = GetInstance())
             {
-                return GetInstance().Queryable<User>().Any(c => c.UserID == userName || c.Password == password);
+                return GetInstance().Queryable<User>().Any(c => c.UserID == userName && c.Password == password);
             }
         }
 
